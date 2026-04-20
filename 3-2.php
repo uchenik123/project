@@ -1,5 +1,5 @@
 <?php
-// Если куки нет, ставим 0, прибавляем 1.
+
 $visits = isset($_COOKIE['visit_count']) ? (int)$_COOKIE['visit_count'] : 0;
 $visits++;
 
